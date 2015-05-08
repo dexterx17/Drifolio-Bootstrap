@@ -8,6 +8,8 @@ Language: Spanish
 $lang = array();
  
 $lang['PAGE_TITLE'] = 'Ahorrando sueños';
+$lang['HEAD_DESCRIPTION'] = 'App gratuita que te ayuda con el control de tus gastos para alcanzar tus metas mas facilmente';
+$lang['HEAD_KEYWORDS'] = 'Save, money, app, android, saving money, meet your goals';
 $lang['HEADER_TITLE'] = 'Mi sitio web de la cabecera título';
 $lang['SITE_NAME'] = 'Ahorrando para cumplir tus sueños';
 $lang['SLOGAN'] = 'Por que la manera más fácil de alcanzar tus objetivos es tener el control de todos tus gastos, no importa cuan grandes o pequeños son';

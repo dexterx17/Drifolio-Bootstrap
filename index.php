@@ -51,20 +51,14 @@ include_once 'languages/' . $lang_file;
     <!-- ===========================
     THEME INFO
     =========================== -->
-    <meta name="description" content="A free app to help you to meet your goals saving the money that you need for that, the only way is have control in all your spends">
-    <meta name="keywords" content="Save, money, app, android, saving money, meet your goals">
+    <meta name="description" content="<?php echo $lang['HEAD_DESCRIPTION']; ?>">
+    <meta name="keywords" content="<?php echo $lang['HEAD_KEYWORDS']; ?>">
     <meta name="author" content="denux team">
-    
-    <!-- DEVEOPER'S NOTE:
-    This is a free Bootstrap powered HTML template from EvenFly. Feel free to download, modify and use it for yourself or your clients as long there is no money involved.
-    
-    Please don't try to sale it from anywhere; because I want it to be free, forever. If you sale it, That's me who deserves the money, not you :)
-    -->
 
     <!-- ===========================
     SITE TITLE
     =========================== -->
-    <title><?php echo $lang['PAGE_TITLE']; ?></title><!-- This is what you see on your browser tab-->
+    <title><?php echo $lang['PAGE_TITLE']; ?></title>
     
     <!-- ===========================
     FAVICONS
@@ -104,10 +98,16 @@ include_once 'languages/' . $lang_file;
   <!-- ===========================
    GOOGLE ANALYTICS (Optional)
    =========================== -->
-    
-    <!--Replace this line with your analytics code-->
-     
-    <!-- Analytics end-->
+  <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-61733318-2', 'auto');
+      ga('send', 'pageview');
+
+  </script>
   
    </head>
     <body data-spy="scroll">
@@ -196,61 +196,53 @@ include_once 'languages/' . $lang_file;
     <!-- ===========================
     METAS
     =========================== -->
-       <div id="metas" class="container">
-         <div class="row">
-             <div class="col-md-3">
-                 <h4><?php echo $lang['DEFINE_TUS_METAS']; ?></h4>
-             </div>
-             <div class="col-md-9">
-                 <ul class="ul_clientes"><!--METAS LOGO-->
-                     <li><img src="img/metas_cosas.png" alt="<?php echo $lang['COMPRAR_COSAS']; ?>"></li>
-                     <li><img src="img/metas_viajes.jpg" alt="<?php echo $lang['VIAJAR']; ?>"></li>
-                     <li><img src="img/metas_viajes2.jpg" alt="<?php echo $lang['DESCUBRIR']; ?>"></li>
-                     <li><img src="img/metas_emprendimientos.jpg" alt="<?php echo $lang['EMPRENDIMIENTOS']; ?>"></li>                     
-                 </ul><!--METAS LOGO END-->
-             </div>
-         </div>
-         <hr><!-- SECTION SEPARETOR LINE -->
-  
-    
-    <!-- ===========================
-    ABOUT SECTION START
-    =========================== -->
+    <div id="metas" class="container">
+       <div class="row">
+           <div class="col-md-3">
+               <h4><?php echo $lang['DEFINE_TUS_METAS']; ?></h4>
+           </div>
+           <div class="col-md-9">
+               <ul class="ul_clientes"><!--METAS LOGO-->
+                   <li><img src="img/metas_cosas.png" alt="<?php echo $lang['COMPRAR_COSAS']; ?>"></li>
+                   <li><img src="img/metas_viajes.jpg" alt="<?php echo $lang['VIAJAR']; ?>"></li>
+                   <li><img src="img/metas_viajes2.jpg" alt="<?php echo $lang['DESCUBRIR']; ?>"></li>
+                   <li><img src="img/metas_emprendimientos.jpg" alt="<?php echo $lang['EMPRENDIMIENTOS']; ?>"></li>                     
+               </ul><!--METAS LOGO END-->
+           </div>
+      </div>
+      <hr><!-- SECTION SEPARETOR LINE -->
    
-    <div class="row">
-        <!-- LEFT PART OF THE ABOUT SECTION -->
+      <div class="row">
+        <!-- LEFT PART OF THE METAS SECTION -->
          <div class="col-md-6">
             <div class="row">
              <h2 class="wow fadeInDown" data-wow-duration="2s"><?php echo $lang['METAS_FRASE_1']; ?></h2>
 
              <h4 class="wow fadeInUp" data-wow-duration="3s"><?php echo $lang['METAS_FRASE_2']; ?></h4>
-             
-
-             
           
-             </div> <!-- ABOUT INFO END -->
+             </div> <!-- METAS INFO END -->
              
             
             <div class="myapps row">
                 <h5><?php echo $lang['EXAMPLE_OF_GOALS']; ?></h5>
                 
                 <ul class="metas"><!-- FAVORITE APP ICONS START -->
-                    <li><div class="wow animated bounceInUp" data-wow-duration="1s" ><?php echo $lang['COMPRAR_UNA_TABLET']; ?></div></li>
-                    <li><p class="wow bounceInUp" data-wow-duration="2s"><?php echo $lang['VIAJAR_A_LA_PLAYA']; ?></p></li>
-                    <li><p class="wow bounceInUp" data-wow-duration="3s"><?php echo $lang['COMPRAR_UNA_MOTO']; ?></p></li>
-                    <li><p class="wow animated bounceInUp" data-wow-duration="4s"><?php echo $lang['EMPEZAR_UNA_EMPRESA']; ?></p></li>
-                    <li><p class="wow bounceInUp" data-wow-duration="5s" ><?php echo $lang['VIAJAR_A_EGIPTO']; ?></p></li>
+                    <li class="wow animated bounceInUp" data-wow-duration="1s"><?php echo $lang['COMPRAR_UNA_TABLET']; ?></li>
+                    <li class="wow bounceInUp" data-wow-duration="2s"><?php echo $lang['VIAJAR_A_LA_PLAYA']; ?></li>
+                    <li class="wow bounceInUp" data-wow-duration="3s"><?php echo $lang['COMPRAR_UNA_MOTO']; ?></li>
+                    <li class="wow animated bounceInUp" data-wow-duration="4s"><?php echo $lang['EMPEZAR_UNA_EMPRESA']; ?></li>
+                    <li class="wow bounceInUp" data-wow-duration="5s" ><?php echo $lang['VIAJAR_A_EGIPTO']; ?></li>
                 </ul><!-- FAVORITE APP ICONS END -->
             </div>
-         </div><!-- LEFT PART OF THE ABOUT SECTION END -->
+         </div><!-- LEFT PART OF THE METAS SECTION END -->
         <!--Left part end-->
          
-         <!-- RIGHT PART OF THE ABOUT SECTION -->
+         <!-- RIGHT PART OF THE METAS SECTION -->
          <div class="col-md-6 wow fadeInUp myphoto" data-wow-duration="4s">
              <img src="img/user.png" alt="Mamun Srizon">
-         </div><!-- RIGHT PART OF THE ABOUT SECTION END -->        
+         </div><!-- RIGHT PART OF THE METAS SECTION END -->        
         </div>   
-     </div><!-- ABOUT SECTION END -->
+     </div><!-- METAS SECTION END -->
         
     <hr><!-- SECTION SEPARETOR LINE -->
         
@@ -328,24 +320,24 @@ include_once 'languages/' . $lang_file;
     <!-- ===========================
     TRANSACCIONES
     =========================== -->
-    <div id="transacciones">
+    <div id="transacciones" class="container">
         <div class="sectionhead wow bounceInUp" data-wow-duration="2s">
           <span class="bigicon icon-rocket"></span>
            <h3><?php echo $lang['TRANSACCIONES']; ?></h3>
            <hr class="separetor">            
-        </div><!-- PORTFOLIO SECTION HEAD END -->   
+        </div><!-- TRANSACCION SECTION HEAD END -->   
         <div class="row">
             <div class="col-md-6 wow bounceIn" data-wow-duration="1s">
-                <p><?php echo $lang['TRNS_FRASE_1']; ?></p>
-                <p><?php echo $lang['TRNS_FRASE_2']; ?></p>
-                <p><?php echo $lang['TRNS_FRASE_3']; ?></p>
-                <p><?php echo $lang['TRNS_FRASE_4']; ?></p>
+                <p class="wow fadeInUp" data-wow-duration="2s"><?php echo $lang['TRNS_FRASE_1']; ?></p>
+                <p class="wow fadeInUp" data-wow-duration="4s"><?php echo $lang['TRNS_FRASE_2']; ?></p>
+                <p class="wow fadeInUp" data-wow-duration="6s"><?php echo $lang['TRNS_FRASE_3']; ?></p>
+                <p class="wow fadeInUp" data-wow-duration="8s"><?php echo $lang['TRNS_FRASE_4']; ?></p>
             </div>
             <div class="col-md-6 wow bounceIn" data-wow-duration="2s">
                 <img src="" alt="INGRESOS/EGRESOS">
             </div>
         </div>
-    </div><!-- PORTFOLIO SECTION END -->
+    </div><!-- TRANSACCION SECTION END -->
 
     <!-- ===========================
     BALANCE SECTION START
@@ -401,9 +393,7 @@ include_once 'languages/' . $lang_file;
                     <li><a href="#categorias"><?php echo $lang['MENU_CATEGORIAS']; ?></a></li>
                     <li><a href="#transacciones"><?php echo $lang['MENU_TRANSACCIONES']; ?></a></li>
                     <li><a href="#balance"><?php echo $lang['MENU_BALANCE']; ?></a></li>
-
-                    <!--replace the email address below with your email address-->
-                    <li><a href="mailto:m@creatrix.us"><?php echo $lang['MENU_CONTACTO']; ?></a></li>                   
+                    <li><a href="mailto:dexterx17@hotmail.com"><?php echo $lang['MENU_CONTACTO']; ?></a></li>                   
                 </ul>
             </div><!-- FOOTER LINKS END -->
              
