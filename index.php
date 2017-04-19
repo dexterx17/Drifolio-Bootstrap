@@ -145,7 +145,7 @@ include_once 'languages/' . $lang_file;
                     
                     <!-- DOWNLOAD ITEM -->
                     <div class="col-md-6 wow bounceIn" data-wow-duration="3s" id="download_buttons">
-                        <a href="#" alt="<?php echo $lang['DESCARGAR_EN_GOOGLE_PLAY']; ?>">
+                        <a href="https://play.google.com/apps/testing/apps.denux.ahorrando" target="_blanck" alt="<?php echo $lang['DESCARGAR_EN_GOOGLE_PLAY']; ?>">
                             <img src="img/android-app-on-google-play.jpg" alt="<?php echo $lang['DESCARGAR_EN_GOOGLE_PLAY']; ?>">
                         </a>
                         <a href="#" alt="<?php echo $lang['DESCARGAR_EN_APP_STORE_SOON']; ?>">
@@ -183,8 +183,8 @@ include_once 'languages/' . $lang_file;
                         <li><a href="#categorias"><span class="btnicon icon-cup"></span><?php echo $lang['MENU_CATEGORIAS']; ?></a></li>
                         <li><a href="#transacciones"><span class="btnicon icon-rocket"></span><?php echo $lang['MENU_TRANSACCIONES']; ?></a></li>
                         <li><a href="#balance"><span class="btnicon icon-bubble"></span><?php echo $lang['MENU_BALANCE']; ?></a></li>
-                        <li><a href="mailto:dexterx17@hotmail.com"><span class="btnicon icon-envelope-open"></span><?php echo $lang['MENU_CONTACTO']; ?></a></li>
-                        <li class="active"><a href=""><span class="btnicon icon-cloud-download"></span><?php echo $lang['MENU_DESCARGAR_APP']; ?></a></li>
+                        <li><a href="mailto:apps.denux@gmail.com"><span class="btnicon icon-envelope-open"></span><?php echo $lang['MENU_CONTACTO']; ?></a></li>
+                        <li class="active"><a href="https://play.google.com/apps/testing/apps.denux.ahorrando" target="_blanck"><span class="btnicon icon-cloud-download"></span><?php echo $lang['MENU_DESCARGAR_APP']; ?></a></li>
                         <li></li>
                     </ul>
                 
@@ -203,10 +203,10 @@ include_once 'languages/' . $lang_file;
            </div>
            <div class="col-md-9">
                <ul class="ul_clientes"><!--METAS LOGO-->
-                   <li><img src="img/metas_cosas.png" alt="<?php echo $lang['COMPRAR_COSAS']; ?>"></li>
-                   <li><img src="img/metas_viajes.jpg" alt="<?php echo $lang['VIAJAR']; ?>"></li>
-                   <li><img src="img/metas_viajes2.jpg" alt="<?php echo $lang['DESCUBRIR']; ?>"></li>
-                   <li><img src="img/metas_emprendimientos.jpg" alt="<?php echo $lang['EMPRENDIMIENTOS']; ?>"></li>                     
+                   <li><img src="img/metas_cosas.png" alt="<?php echo $lang['COMPRAR_COSAS']; ?>" title="<?php echo $lang['COMPRAR_COSAS']; ?>"></li>
+                   <li><img src="img/metas_viajes.jpg" alt="<?php echo $lang['VIAJAR']; ?>" title="<?php echo $lang['VIAJAR']; ?>"></li>
+                   <li><img src="img/metas_viajes2.jpg" alt="<?php echo $lang['DESCUBRIR']; ?>" title="<?php echo $lang['DESCUBRIR']; ?>"></li>
+                   <li><img src="img/metas_emprendimientos.jpg" alt="<?php echo $lang['EMPRENDIMIENTOS']; ?>" title="<?php echo $lang['EMPRENDIMIENTOS']; ?>"></li>                     
                </ul><!--METAS LOGO END-->
            </div>
       </div>
@@ -267,17 +267,18 @@ include_once 'languages/' . $lang_file;
                 </div> <!-- ITEM END -->
 
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
-                   <img src="img/s2.png" alt="">
+                   <img src="img/salud.png" alt="">
                    <h4><?php echo $lang['CAT_SALUD']; ?></h4>
                    <p><?php echo $lang['CAT_SALUD_DESC']; ?></p>
                 </div> <!-- ITEM END -->
 
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
-                   <img src="img/s3.png" alt="">
+                   <img src="img/bebidas.png" alt="">
                    <h4><?php echo $lang['CAT_BEBIDAS']; ?></h4>
                    <p><?php echo $lang['CAT_BEBIDAS_DESC']; ?></p>
                 </div> <!-- ITEM END -->
-
+        </div>
+        <div class="row">
                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
                    <img src="img/s4.png" alt="">
                    <h4><?php echo $lang['CAT_EXTRAS']; ?>n</h4>
@@ -291,14 +292,15 @@ include_once 'languages/' . $lang_file;
                 </div> <!-- ITEM END -->
 
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
-                   <img src="img/s6.png" alt="">
+                   <img src="img/transporte.png" alt="">
                    <h4><?php echo $lang['CAT_TRANSPORTE']; ?></h4>
                    <p><?php echo $lang['CAT_TRANSPORTE_DESC']; ?></p>
                 </div> <!-- ITEM END -->
-
+        </div>
+        <div class="row">
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
-                   <img src="img/s4.png" alt="">
-                   <h4><?php echo $lang['CAT_VICIOS']; ?>n</h4>
+                   <img src="img/vicios.png" alt="">
+                   <h4><?php echo $lang['CAT_VICIOS']; ?></h4>
                    <p><?php echo $lang['CAT_VICIOS_DESC']; ?></p>
                 </div> <!-- ITEM END -->
 
@@ -309,7 +311,7 @@ include_once 'languages/' . $lang_file;
                 </div> <!-- ITEM END -->
 
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
-                   <img src="img/s6.png" alt="">
+                   <img src="img/salarios.png" alt="">
                    <h4><?php echo $lang['CAT_SALARIOS']; ?></h4>
                    <p><?php echo $lang['CAT_SALARIOS_DESC']; ?></p>
                 </div> <!-- ITEM END -->
@@ -393,7 +395,7 @@ include_once 'languages/' . $lang_file;
                     <li><a href="#categorias"><?php echo $lang['MENU_CATEGORIAS']; ?></a></li>
                     <li><a href="#transacciones"><?php echo $lang['MENU_TRANSACCIONES']; ?></a></li>
                     <li><a href="#balance"><?php echo $lang['MENU_BALANCE']; ?></a></li>
-                    <li><a href="mailto:dexterx17@hotmail.com"><?php echo $lang['MENU_CONTACTO']; ?></a></li>                   
+                    <li><a href="mailto:apps.denux@gmail.com"><?php echo $lang['MENU_CONTACTO']; ?></a></li>                   
                 </ul>
             </div><!-- FOOTER LINKS END -->
              
