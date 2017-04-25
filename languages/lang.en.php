@@ -15,26 +15,30 @@ $lang['SITE_NAME'] = 'Saving for your dreams';
 $lang['SLOGAN'] = 'Because the only way to achieve your goals is have the control of all your spends doesnt matter how big or small its are';
 $lang['HEADING'] = 'Heading';
  
-$lang['DESCARGAR_EN_GOOGLE_PLAY'] = 'Descargar en Goole Play Store';
+$lang['DESCARGAR_EN_GOOGLE_PLAY'] = 'Download in Goole Play Store';
 $lang['DESCARGAR_EN_APP_STORE_SOON'] = 'Proximamente en App Store';
 
-$lang['PASO_1'] = 'Descargar la APP';
-$lang['PASO_2'] = 'Define tus METAS';
-$lang['PASO_3'] = 'Define tus CATEGORIAS';
-$lang['PASO_4'] = 'Registra todas tus TRANSACCIONES';
-$lang['PASO_5'] = 'Revisa tu BALANCE general';
-$lang['PASO_6'] = 'Cumple tus SUEÑOS';
+$lang['PASO_1'] = 'Download the APP';
+$lang['PASO_2'] = 'Define your GOALS';
+$lang['PASO_3'] = 'Define the CATEGORIES';
+$lang['PASO_4'] = 'Register all your TRANSACTIONS';
+$lang['PASO_5'] = 'Check your overall BALANCE';
+$lang['PASO_6'] = 'Fulfill your DREAMS';
 
 
 // Menu
  
 $lang['TOGGLE_NAVIGATION'] = 'Toggle Navigation';
-$lang['MENU_METAS'] = 'METAS';
-$lang['MENU_CATEGORIAS'] = 'CATEGORIAS';
-$lang['MENU_TRANSACCIONES'] = 'TRANSACCIONES';
+$lang['MENU_ESPANOL'] = 'ESPAÑOL';
+$lang['MENU_INGLES'] = 'INGLES';
+$lang['MENU_QUICHUA'] = 'QUICHUA';
+$lang['MENU_ALEMAN'] = 'ALEMAN';
+$lang['MENU_METAS'] = 'GOALS';
+$lang['MENU_CATEGORIAS'] = 'CATEGORIES';
+$lang['MENU_TRANSACCIONES'] = 'TRANSACTIONS';
 $lang['MENU_BALANCE'] = 'BALANCE';
-$lang['MENU_CONTACTO'] = 'CONTACTO';
-$lang['MENU_DESCARGAR_APP'] = 'DESCARGAR APP';
+$lang['MENU_CONTACTO'] = 'CONTACT';
+$lang['MENU_DESCARGAR_APP'] = 'DOWNLOAD APP';
 
 
 // Metas

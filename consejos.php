@@ -59,7 +59,7 @@ include_once 'languages/' . $lang_file;
     <!-- ===========================
     SITE TITLE
     =========================== -->
-    <title><?php echo $lang['PAGE_TITLE']; ?></title>
+    <title><?php echo $lang['MENU_TIPS'].' | '.$lang['PAGE_TITLE']; ?></title>
     
     <!-- ===========================
     FAVICONS
@@ -133,22 +133,18 @@ include_once 'languages/' . $lang_file;
                 <!-- HOME DIV -->
                 <div class="row">
                     <!-- PASOS ITEM -->
-                    <div class="col-md-6 wow bounceIn" data-wow-duration="2s">
-                        <ul id="ul_pasos">
-                           <li><b>1</b> <?php echo $lang['PASO_1']; ?></li>
-                           <li><b>2</b> <?php echo $lang['PASO_2']; ?> </li>
-                           <li><b>3</b> <?php echo $lang['PASO_3']; ?> </li>
-                           <li><b>4</b> <?php echo $lang['PASO_4']; ?> </li>
-                           <li><b>5</b> <?php echo $lang['PASO_5']; ?> </li>
-                           <li><b>6</b> <?php echo $lang['PASO_6']; ?> </li>
-                       </ul>       
+                    <div class="col-md-12 col-sm-12 wow bounceIn" data-wow-duration="2s">
+                        <img src="img/tips/tip1.jpg" alt="Tip 1" width="500">       
                     </div><!-- PASOS  ITEM END -->
-                    
+                </div>
+                <div class="row">
                     <!-- DOWNLOAD ITEM -->
-                    <div class="col-md-6 wow bounceIn" data-wow-duration="3s" id="download_buttons">
+                    <div class="col-md-6 wow bounceIn" data-wow-duration="2s" id="download_buttons">
                         <a href="https://play.google.com/store/apps/details?id=apps.denux.ahorrando" target="_blanck" alt="<?php echo $lang['DESCARGAR_EN_GOOGLE_PLAY']; ?>">
                             <img src="img/android-app-on-google-play.jpg" alt="<?php echo $lang['DESCARGAR_EN_GOOGLE_PLAY']; ?>">
                         </a>
+                    </div>
+                    <div class="col-md-6 wow bounceIn" data-wow-duration="3s" id="download_buttons">
                         <a href="#" alt="<?php echo $lang['DESCARGAR_EN_APP_STORE_SOON']; ?>">
                             <img src="img/download_ios_soon.png" alt="<?php echo $lang['DESCARGAR_EN_APP_STORE_SOON']; ?>">
                         </a>
@@ -182,8 +178,8 @@ include_once 'languages/' . $lang_file;
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="?lang=es"><span class="btnicon icon-user"></span><?php echo $lang['MENU_ESPANOL']; ?></a></li>
                         <li><a href="?lang=en"><span class="btnicon icon-cup"></span><?php echo $lang['MENU_INGLES']; ?></a></li>
-                        <li><a href="consejos.php"><span class="btnicon icon-rocket"></span><?php echo $lang['MENU_TIPS']; ?></a></li>
-                        <!--<li><a href="#"><span class="btnicon icon-bubble"></span><?php echo $lang['MENU_ALEMAN']; ?></a></li>-->
+                        <!--<li><a href="#"><span class="btnicon icon-rocket"></span><?php echo $lang['MENU_QUICHUA']; ?></a></li>
+                        <li><a href="#"><span class="btnicon icon-bubble"></span><?php echo $lang['MENU_ALEMAN']; ?></a></li>-->
                         <li><a href="mailto:apps.denux@gmail.com"><span class="btnicon icon-envelope-open"></span><?php echo $lang['MENU_CONTACTO']; ?></a></li>
                         <li class="active"><a href="https://play.google.com/store/apps/details?id=apps.denux.ahorrando" target="_blanck"><span class="btnicon icon-cloud-download"></span><?php echo $lang['MENU_DESCARGAR_APP']; ?></a></li>
                         <li></li>

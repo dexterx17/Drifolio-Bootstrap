@@ -29,6 +29,11 @@ $lang['PASO_6'] = 'Cumple tus SUEÑOS';
 // Menu
  
 $lang['TOGGLE_NAVIGATION'] = 'Toggle Navigation';
+$lang['MENU_TIPS'] = 'CONSEJOS';
+$lang['MENU_ESPANOL'] = 'ESPAÑOL';
+$lang['MENU_INGLES'] = 'INGLES';
+$lang['MENU_QUICHUA'] = 'QUICHUA';
+$lang['MENU_ALEMAN'] = 'ALEMAN';
 $lang['MENU_INICIO'] = 'INICIO';
 $lang['MENU_METAS'] = 'METAS';
 $lang['MENU_CATEGORIAS'] = 'CATEGORIAS';
